@@ -1,0 +1,9 @@
+source:
+  - name: dummyjson_products
+    type: api
+    url: "https://dummyjson.com/products"
+    response_key: products
+  
+  - name: drivers_f1
+    type: csv
+    url: "https://raw.githubusercontent.com/muharsyad/formula-one-datasets/master/drivers.csv"
